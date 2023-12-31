@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkgoldenrod;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header{
+    color: midnightblue;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-family: 'Khand',sans-serif;
+    font-size: 2.5rem;
+}
+
+input{
+    padding: 0.6rem;
+    border: none;
+    outline: none;
+    background-color: mintcream;
+}
+
+form button{
+    padding: 0.6rem;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    background-color: blue;
+    color: mintcream;
+}
+
+.tasks{
+    margin: 0.5rem;;
+    background-color: mintcream;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    outline: none;
+}
+
+.check-list{
+    min-width: 350px;
+    list-style: none;
+}
+
+.tasks li{
+    flex: 1;
+}
+
+.add-task{
+    padding: 0.5rem;
+}
+
+.tasks button{
+    margin: 3px 5px 3px 15px;
+}
+
+.taskcheck{
+    color: dimgray;
+    text-decoration: line-through;
+}
